@@ -3,7 +3,7 @@ name: unit testing
 on: 
     push:
       branches:
-         - 'feature/*'
+         - main
 env:
     MONGO_URI: 'mongodb+srv://supercluster.d83jj.mongodb.net/superData'
     MONGO_USERNAME: ${{ vars.Mongo_username }}
