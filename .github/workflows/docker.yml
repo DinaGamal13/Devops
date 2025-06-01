@@ -9,4 +9,4 @@ jobs:
               uses: docker/login-actions@v3.4.0
               with:
                 username: ${{ vars.Docker_Username }}
-                password: ${{ vars.Docker_Password }}
+                password: ${{ secrets.Docker_Password }}
